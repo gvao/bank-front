@@ -1,5 +1,5 @@
 import styles from './styles.module.css'
-import { Expense } from './types'
+import { Expense } from '../../../types/Expense'
 
 export default function ExpenseItem({ expense }: { expense: Expense }) {
 

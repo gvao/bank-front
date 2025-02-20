@@ -1,9 +1,10 @@
 import styles from './styles.module.css'
 
 import ExpenseItem from "../ExpenseItem";
-import { Expense } from '../ExpenseItem/types';
+import { useExpenseContext } from '../Context';
 
-export default function ExpenseList({ expenses }: { expenses: Expense[] }) {
+export default function ExpenseList() {
+    const { expenses } = useExpenseContext()
     return (
         <ul className={styles.expenseList}>
             {expenses.map(expense => (

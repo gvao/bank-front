@@ -1,5 +1,5 @@
-.expenseComponent {
-    padding: 10px;
+.expense {
+    padding: 32px 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
