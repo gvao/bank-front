@@ -1,7 +1,7 @@
 import styles from './styles.module.css'
 
 import ExpenseItem from "../ExpenseItem";
-import { useExpenseContext } from '../Context';
+import { useExpenseContext } from '../Context/hook';
 
 export default function ExpenseList() {
     const { expenses } = useExpenseContext()

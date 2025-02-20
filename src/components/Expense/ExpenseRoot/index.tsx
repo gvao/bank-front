@@ -2,7 +2,7 @@ import styles from "./styles.module.css"
 
 import Title from "../../Title"
 import { ChildrenInterface } from "../../../types"
-import ExpenseProvider from "../Context"
+import ExpenseProvider from "../Context/Provider"
 
 const ExpenseRoot = ({ children }: ChildrenInterface) => (
     <ExpenseProvider >
