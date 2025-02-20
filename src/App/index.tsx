@@ -1,11 +1,17 @@
-import ExpenseComponent from '../components/ExpenseComponent'
+import Expense from '../components/Expense'
+import Header from '../components/Header'
 import styles from './styles.module.css'
 
 function App() {
   return (
-    <main className={styles.app}>
-      <ExpenseComponent />
-    </main>
+    <>
+      <Header />
+      <main className={styles.app}>
+        <Expense.Root>
+          <Expense.List />
+        </Expense.Root>
+      </main>
+    </>
   )
 }
 
