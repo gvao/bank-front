@@ -1,0 +1,1 @@
+export type ChildrenInterface = { children: React.ReactNode }
