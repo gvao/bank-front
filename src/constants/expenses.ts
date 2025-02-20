@@ -1,4 +1,4 @@
-import { Expense } from "../components/ExpenseItem";
+import { Expense } from "../types";
 
 export const expenses: Expense[] = [
     { title: 'Aluguel', mount: 1000, type: 'fixed', date: new Date(), credit: false },
